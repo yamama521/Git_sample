@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         let textLabel = UILabel(frame: CGRectMake(0, 0, 300, 100))
         textLabel.layer.position = CGPoint(x: self.view.bounds.width / 2, y: self.view.bounds.height / 2)
         textLabel.backgroundColor = UIColor.redColor()
-        textLabel.text = "Hello World!"
+        textLabel.text = "TECH::CAMP"
         textLabel.font = UIFont.systemFontOfSize(40)
         textLabel.textColor = UIColor.whiteColor()
         textLabel.shadowColor = UIColor.blueColor()
@@ -26,12 +26,10 @@ class ViewController: UIViewController {
         textLabel.layer.cornerRadius = 20.0
         self.view.addSubview(textLabel)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
 }
-
